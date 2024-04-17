@@ -9,7 +9,7 @@ if button:
     if number3 > number1 :
       st.write("Largest number",number3)
     else:
-      st.write("Larges number ", numebr1)
+      st.write("Larges number ", number1)
   else:
     if number2 > number3:
       st.write("Largest number ", number2)

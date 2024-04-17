@@ -1,8 +1,8 @@
 import streamlit as st
 st.title("Compare three numbers")
-number1 = st.number_input("Insert a number", value=None, placeholder="Type a number...")
-number2 = st.number_input("Insert a number", value=None, placeholder="Type a number...")
-number3 = st.number_input("Insert a number", value=None, placeholder="Type a number...")
+number1 = st.number_input("Insert a number", key="number1", value=None, placeholder="Type a number...")
+number2 = st.number_input("Insert a number",  key="number2",value=None, placeholder="Type a number...")
+number3 = st.number_input("Insert a number", key="number3", value=None, placeholder="Type a number...")
 button = st.button("Compare")
 if button:
   if number1 > number2 :
